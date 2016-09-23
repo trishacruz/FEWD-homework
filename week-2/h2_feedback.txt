@@ -1,0 +1,18 @@
+Use HTML5 structural elements (nav, header, footer)
+ - Good!
+Use a CSS Reset file in addition to your style.css file to style the page
+ - Good!
+Use IDs and Classes to to select and style elements on the page
+ - Good use of classes to identity and style elements. Try to use IDs for unique elements and classes reusable styles.
+Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
+ - Good!
+Indent nested elements to increase your code's readability
+ - Good! I see a few closing tags that aren't quite lined up with their opening tags, but other than that indentation looks fine.
+Use CSS display and float to get the layout correct
+ - Good!
+
+Additional Comments:
+
+- Great job! Nice attention to detail in regards to spacing, colors, and fonts. Good use of descriptive class names.
+
+- Be careful about reusing class names. You have a <div> with a class of "footer", and directly under that a footer element, and below that a <p> with a class of "footer". This will work, technically, but it's going to get confusing and hard to
