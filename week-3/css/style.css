@@ -1,0 +1,203 @@
+* {
+     box-sizing: border-box;
+}
+
+.clearfix:after {
+    content:"";
+    display:block;
+    clear: both;
+}
+
+body {
+  width: 1200px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+}
+
+header {
+	background-color: #033048;
+	height: 122px;
+}
+
+.title { 
+	font-weight: 800;
+	font-size: 44px;
+	color: white;
+	float: left;
+	margin-left: 120px;
+	margin-top: 30px;
+	margin-right: 200px;
+}
+
+.mainNav { 
+	padding-top: 45px;
+	padding-right: 110px;
+	float: right;
+}
+
+.mainNav a { 
+	color: #f9e42e;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 24px;
+	float: left;
+	margin-left: 50px;
+}
+
+.mainColumn { 
+  	width: 700px;
+  	float: left;
+  	margin-left: 120px;
+  	margin-top: 60px;
+  	overflow: none;
+  	margin-bottom: 100px;
+}
+
+
+h1 { 
+	font-size: 40px;
+	font-weight: 600;
+	color: #033048;
+}
+
+.firstcharacter { 
+	font-size: 80px;
+	color: #666;
+	margin-right: 10px;
+	float: left;
+	font-weight: 600;
+}
+
+p { 
+	font-size: 24px;
+	font-weight: 300;
+	color: #606161;
+}
+
+.callToAction { 
+	font-size: 24px;
+	font-weight: 600;
+	text-align: right;
+	color: #033048;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.rightRail {
+	width: 240px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+h2 { 
+	font-size: 32px;
+	font-weight: 800;
+	color: #033048;
+}
+
+a { 
+	font-size: 24px;
+	font-weight: 300;
+	margin-left: none;
+	display: block;
+	color: #033048;
+}
+
+a:hover {
+	color: purple;
+}
+
+.categories { 
+	margin-bottom: 50px;
+}
+
+.aboutDescription { 
+	font-size: 22px;
+	font-weight: 300;
+	margin: auto;
+	color: #033048;
+}
+
+.aboutCallToAction { 
+	font-size: 22px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.ad { 
+	width: 240px;
+	height: 550px;
+	background-color: white;
+	font-color: #033048;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.signup { 
+	background-color: #f9e42e;
+ 	padding-top: 2px;
+ 	padding-bottom: 15px;
+ 	font-size: 12px;
+ 	margin-bottom: 30px;
+ 	height: 140px;
+}
+
+.button {
+  background-color: #f9e42e;
+  width: 306px;
+  height: 60px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#blue {
+  background: #033048;
+  color: white;
+  margin-bottom: 30px;
+}
+
+h4 { 
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 12px;
+}
+
+div.footer {
+  text-align: center;
+  background-color: #121212;
+  height: 355px;
+  padding-top: 50px;
+}
+
+.logoBottom { 
+	margin: auto;
+	font-size: 24px;
+	font-weight: 800;
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 44px;
+	color: #f9e42e;
+}
+
+div.social { 
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+img.facebook, img.twitter { 
+  max-height: 42px;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+p.copyright { 
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
