@@ -1,0 +1,36 @@
+Call $.val() on inputs to get the string value of your user's input
+  - Good!
+Store user input in var city
+  - Good!
+Use $.on("submit") or $.click to figure out when the user clicks the "submit" button
+  - Good!
+Create if / else if / else conditionals to control the flow of your application
+  - Good!
+Prevent a form submission using the event.preventDefault() function
+  - Good!
+Use the $.ready() handler to delay your code from executing until all DOM assets have been loaded
+  - Good!
+Use the || operator in your conditionals to allow for multiple string values to execute if/else if statement code
+  - Good!
+
+
+
+Additional Comments:
+
+This looks great! All your JavaScript is working! And good use of pseudocode.
+
+One little thing: line 6 and line 11 are basically the same. You don't need to have that twice. It's not causing any problems, but you could condense rows 6-13 like this:
+  $("#submit-btn").on("click", function(event) {
+     event.preventDefault();
+     displayCityImage();
+  });
+
+The only other thing is that it's better to use === in the conditional (instead of ==). === is more exact than == (which sometimes gives you weird results). For instance:
+  3 == "3"    is true (even though "3" is a string, not a number) but
+  3 === "3"   is false like you'd expect
+Basically, unless you have a specific reason to use ==, it's better to use ===.
+
+Overall, nice job! Let me know if you have any questions.
+
+
+Also, your wireframes for your final project look really good. Very thorough. I think that a portfolio site will be a nice project to work on. That's great that you've thought through all the different pages. (And if you don't have time to complete the whole thing during class, you can keep working on it afterwards.)
