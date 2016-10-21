@@ -1,0 +1,24 @@
+Create an array with the following values: "NYC", "SF", "LA", "ATX", "SYD"; use the array to add values to the <select> menu by using a for loop in JavaScript (don't update the HTML to do this!)
+ - Good!
+When the user changes the input of the drop-down, update the background image based on what they selected
+ - Good, but there are a few mistakes causing problems with a couple options. See additional comments.
+Use $.append() in your iteration on the drop-down menu
+ - Good!
+Use the $.attr() function to update html classes
+ - You can use .attr("class") to set a class, but .addClass() & .removeClass() work just as well
+Get the value of user input using $.val()
+ - Good!
+Use the $.change event handler to capture user actions
+ - Good!
+Use if/else if/else conditionals to control the flow of your application
+ - Good, but since you are controlling the values with a 'select' control you don't need the additional options ("NY", "New York", etc.)
+Display your pseudocode as Javascript comments
+ - Comments can help keep your code understandable for yourself and for other developers
+
+ Additional Comments:
+
+ - Good job. The functionality is mostly working and your code is clean and well indented.
+
+ - The NYC option isn't working because of this jquery selector: $(".nyc") - it should be $("body")
+
+ - Your SF options isn't working because of this condiditonal check: city == "Bay Area" - it should be "SF"
