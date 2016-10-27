@@ -1,0 +1,21 @@
+Use media queries at a 768px breakpoint
+  -Good!
+
+As a user changes the size of a browser window:
+Content remains in appropriate divs
+  -Good!
+Content remains visible to the user
+  -Good!
+Fonts change size appropriately
+  -Good!
+Margins and padding change size appropriately
+  -Good!
+Content does not overlap
+  -Good!
+In the blog section, the two-column layout changes to a single-column layout when appropriate
+  -Good!
+
+
+Additional Comments:
+
+This looks great! I don't really have any other feedback. You're really getting the hang of CSS!
