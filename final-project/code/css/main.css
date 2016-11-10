@@ -1,0 +1,492 @@
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.toplogo { 
+  display: inline-block;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 60px;
+  color: white;
+}
+
+img.toplogo { 
+  max-width: 60px;
+}
+
+.toparea { 
+  background: url(http://i.imgur.com/pyZky7e.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 780px;
+} 
+
+.extendednav {
+  display: none;
+}
+
+.intro {
+  text-align: center; 
+  margin-top: 200px;
+}
+
+body { 
+  font-family: 'work sans';
+  background-color: #161616;
+}
+
+h1.intro {
+  margin-bottom: 0;
+  font-size: 100px;
+}
+
+h1 { 
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+p.introdescrip { 
+  color: white;
+  font-size: 24px;
+}
+
+img.downarrow {
+  margin: 0 auto;
+  display: block;
+  padding-top: 150px;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 60px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 16px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none
+}
+
+h4 { 
+  text-align: center;
+  color: white;
+}
+
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  font-family: oswald;
+  border: 0;
+}
+
+input[type="submit"] {
+  background: #EF7756;
+  color: white;
+}
+
+#project1 {
+  padding-top: 100px;
+}
+
+.project { 
+  padding-left: 100px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+}
+
+.projectleft {
+  max-width: 800px;
+}
+
+.projectright { 
+  max-width: 800px;
+}
+
+img.projectleft { 
+  float: left;
+}
+
+img.projectright { 
+  float: right;
+}
+
+.projectdescrip {
+  display: inline;
+  padding: 20px;
+  width: 400px;
+  float: right;
+  margin-top: 50px;
+}
+
+.menu { 
+  max-width: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+div.footer {
+  text-align: center;
+  background-color: #121212;
+  height: 355px;
+  padding-top: 50px;
+}
+
+.logoBottom { 
+  margin: auto;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 44px;
+  color: #f9e42e;
+}
+
+div.social { 
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+img.facebook, img.twitter { 
+  max-height: 25px;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+p.copyright { 
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.bottomlogo { 
+  display: inline-block;
+  text-align: left;
+  padding-top: 30px;
+  color: white;
+  max-width: 60px;
+}
+
+h2 { 
+  font-size: 54px;
+  line-height: 1em;
+}
+
+h2, p { 
+  color: #f7f7f7;
+}
+
+p.platform { 
+  font-weight: 600
+}
+
+/* -------------------------------- 
+
+CONTACT PAGE
+
+-------------------------------- */
+
+body.internalbody { 
+  background-color: white;
+}
+
+header nav ul li.internalmenu a {
+  color: #222;
+  text-decoration: none
+}
+
+#contact { 
+  margin-left: 50px;
+}
+
+h1.contact { 
+  color: #222;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* -------------------------------- 
+
+Form
+
+-------------------------------- */
+
+fieldset {
+  border: 0;
+  margin-top: 24px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+legend {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+form div {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  color: #94aab0;
+  margin-bottom: 10px;
+}
+
+input,
+textarea,
+select,
+label {
+  font-family: 'work sans', sans-serif;
+  font-size: 16px;
+  color: #2b3e51;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+legend {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  padding: 12px;
+  padding-left: 20px;
+  border: 1px solid #cfd9db;
+  background-color: #ffffff;
+  border-radius: .25em;
+  width: 70%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #2c97de;
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+  overflow: auto;
+}
+
+input[type="submit"] {
+  border: none;
+  background: #222;
+  border-radius: .25em;
+  padding: 16px 50px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  margin-right: 210px;
+}
+
+input[type="submit"]:hover {
+  background: #3a3a3a;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+  background: #222;
+}
+
+input[type="submit"]:active {
+  transform: scale(0.9);
+}
+
+p.contactdescrip {
+  color: #222;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+#moreinfo {
+  margin-top: 150px;
+  margin-left: -10%;
+}
+
+#form1 {
+  width: 60%;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+/* -------------------------------- 
+
+Custom icons
+
+-------------------------------- */
+
+.cd-form .user {
+  background: url("../img/cd-icon-user.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+}
+.company {
+  background: url("../img/cd-icon-company.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+}
+.email {
+  background: url("../img/cd-icon-email.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+}
+.message {
+  background: url("../img/cd-icon-message.svg") no-repeat 16px 16px;
+}
+
+
+/* -------------------------------- 
+
+ABOUT PAGE
+
+-------------------------------- */
+
+#about {
+  margin-left: 100px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+h1.about {
+  font-weight: 600;
+  color: #222;
+  line-height: 1em;
+  font-size: 52px;
+}
+
+img.about {
+  margin-bottom: 30px;
+}
+
+p.about { 
+  color: #222;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#leftabout {
+  float: left;
+}
+
+#moreabout { 
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+p.social, a {
+  text-decoration: none;
+  font-color: #222;
+  color: #222;
+  line-height: .7em;
+}
+
+.extendednav {
+  background-color: #222;
+  margin: auto;
+}
+
+.navtext {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+ul.extendednavlinks, li {
+  text-decoration: none;
+  color: white;
+  padding-left: 0;
+}
+
+a.extendedlinks {
+  text-decoration: none;
+  color: white;
+}
+
+li.extendedlinks {
+  text-decoration: none;
+}
+
+h1.navtitle {
+  font-size: 36px;
+}
+
+/* -------------------------------- 
+
+Big Picture
+
+-------------------------------- */
+
+#bigpicture { 
+  background: url(http://i.imgur.com/o9s8Fa5.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 780px;
+} 
+
+.bpintro {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.bpbody {
+  background-color: #061e34;
+}
+
+p.bp1 {
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+#bpdescrip { 
+  margin-top: 60px;
+}
+
+img.bpdetail {
+  max-width: 800px;
+}
+
+.moredetails {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.screendetails {
+  margin-bottom: 100px;
+}
+
+.screendetails#last { 
+  margin-bottom: 200px;
+}
+
+.hoverthing { 
+  background-color: #3a3a3a;
+}
